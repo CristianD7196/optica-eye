@@ -5,7 +5,7 @@ Grupo 4:
     Duilio Fabian, Navarro - E014-443
     Cristian, Davila - 20687
     Rubro: Óptica
-    Páginas funcionales: Inicio/Catálogo
+    Páginas funcionales: Inicio/Catálogo/Contacto
 -->
 
 <!DOCTYPE html>
@@ -18,16 +18,16 @@ Grupo 4:
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/icono-modificado.jpeg" type="image/webp">
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm custom-navbar">
         <div class="container">
             <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
-                <img src="img/logotipo.webp" alt="Logo Óptica Eye" class="brand-logo rounded-circle shadow-sm" width="40" height="40">
+                <img src="img/icono-modificado.jpeg" alt="Logo Óptica Eye" class="brand-logo rounded-circle shadow-sm" width="40" height="40">
                 <div class="lh-1">
-                    <span class="d-block text-dark fw-extrabold fs-6">Óptica</span>
-                    <span class="d-block text-dark fs-7">Eye</span>
+                    <span class="d-block text-dark fw-extrabold fs-6">Óptica Eye</span>
                 </div>
             </a>
             <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -43,8 +43,8 @@ Grupo 4:
                 </ul>
             </div>
             <div class="d-none d-lg-flex align-items-center gap-3 fs-5">
-                <a href="#" class="text-dark"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="#" class="text-dark"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#" class="text-decoration-none"><i class="fa-solid fa-magnifying-glass" style="color: #2e7bff;"></i></a>
+                <a href="#" class="text-decoration-none"><i class="fa-solid fa-cart-shopping" style="color: #2e7bff;" ></i></a>
             </div>
         </div>
     </nav>
@@ -249,7 +249,7 @@ Grupo 4:
             <div class="row align-items-center mb-4">
                <div class="col-12 col-md-4 text-center text-md-start mb-3 mb-md-0">
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-1">
-                    <img src="img/logotipo.webp" alt="Logo" class="rounded-circle shadow-sm" width="35" height="35">
+                    <img src="img/icono-modificado.jpeg" alt="Logo" class="rounded-circle shadow-sm" width="35" height="35">
                     <span class="fw-bold fs-5">Óptica Eye</span>
                 </div>
                     <div class="text-center text-md-start ps-md-5">
@@ -272,13 +272,14 @@ Grupo 4:
             </div>
             <hr class="border-dark opacity-25">
             <p class="text-center text-dark small mb-0">© Copyright Óptica Eye - 2026 | Todos los derechos reservados.</p>
+            <div class="text-center py-3">
+              <a href="#" class="btn-top-flotante" onclick="window.scrollTo({top: 0, behavior:'smooth'}); return false;">↑TOP</a>
+            </div>       
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
-    <div class="text-center py-3">
-        <a href="#" class="btn-top-flotante" onclick="window.scrollTo({top: 0, behavior:'smooth'}); return false;">↑TOP</a>
-    </div>
+
 </body>
 </html>
